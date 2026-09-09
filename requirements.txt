@@ -1,0 +1,15 @@
+# Core point-cloud / numerical stack (see README.md "Phase 2 — Point Cloud Processing")
+laspy[lazrs]>=2.5
+numpy>=1.26
+scipy>=1.11
+open3d>=0.18
+
+# GIS / inventory export (Phase 4 — Asset Inventory)
+geopandas>=0.14
+shapely>=2.0
+
+# Data distribution (see documentation/data-distribution.md)
+dvc[gdrive]>=3.67
+
+# PDAL is optional and not reliably pip-installable on Windows —
+# install via conda instead if you need it: `conda install -c conda-forge pdal python-pdal`

@@ -1,0 +1,22 @@
+# Large/binary data — delivered out-of-band or regenerable, not committed
+raw_data/*.las
+raw_data/*.laz
+processed_data/*.las
+processed_data/*.laz
+outputs/*.las
+outputs/*.laz
+models/*.pkl
+models/*.pt
+models/*.pth
+models/*.joblib
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+*.egg-info/
+
+# OS/editor
+.DS_Store
+Thumbs.db
